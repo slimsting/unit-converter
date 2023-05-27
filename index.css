@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: #6c757d;
+}
+button{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    padding: 10px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+button:hover{
+    background: #FDA4AF;
+    color: white;
+}
+input{
+    width: 110px;
+    height: 110px;
+    background: #059669;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #059669;
+    height: 300px;
+    /* max-width: 90%; */
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    align-items: center;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    /* box-shadow: 1px 2px 12px #B295FF; */
+}
+.container{
+    background: #F4F4F4;
+    margin: 0 auto;
+    /* max-width: 90%; */
+    height: 500px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* border-top-right-radius: 10px;
+    border-top-left-radius: 10px */
+}
+.output{
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    height: 100px;
+    /* box-shadow: 1px 3px 12px black; */
+    border-radius: 5px;
+    border: 1px solid #059669
+}
+.title{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#message{
+    color: white;
+    text-shadow: 0px 0px 1px white;
+    font-size: 20px;
+}
